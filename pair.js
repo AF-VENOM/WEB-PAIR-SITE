@@ -81,15 +81,15 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = `*SONIC-MD Best Whatsapp Bot*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*
+            const mg = `🛑 *Do Not Share This Code* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://raw.githubusercontent.com/AF-VENOM/BOT-HELP/refs/heads/main/IMG-20250407-WA0004.jpg?token=GHSAT0AAAAAADB3CHFX5YBULVB2AWP7LXI4Z7USUIA",
               },
               caption: sid,
             });
-            const msg = await RobinPairWeb.sendMessage(user_jid, {
+            const msg = await SonicPairWeb.sendMessage(user_jid, {
               text: string_session,
             });
             const msg1 = await RobinPairWeb.sendMessage(user_jid, { text: mg });
